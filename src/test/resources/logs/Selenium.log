@@ -1,0 +1,15 @@
+14:42:20,477 DEBUG devpinoyLogger:62 - {testurl=http://zoho.com, browser=Chrome, implicitwait=10}
+14:42:20,483 DEBUG devpinoyLogger:77 - {nextBtn=//button[@class="btn blue"][@id="nextbtn"], signUpBtn=//a[@href=\"https://www.zoho.com/signup.html\"], createAccountPlusBtn=//button[@data-zcqa="cv_createbtn"], crmBtn=//span[@class="_logo-crm _logo-x96 zod-app-logo"], passwordBtn=//input[@id="password"], goToAccounts=//a[@href="/crm/org60005011846/tab/Accounts"], supportBtn=//a[@class="zh-support"][@href="https://help.zoho.com/portal/home"], accountNameTextBox=//input[@id="Crm_Accounts_ACCOUNTNAME"], loginBtn=/html/body/div[3]/div[2]/div/a[4], goToThreeDotsBtn=//span[@class="lyteDot svgIconsImg"], mailidTextBox=//input[@id="login_id"]}
+14:42:25,586 DEBUG devpinoyLogger:106 - Chrome launched !!!
+14:42:30,742 DEBUG devpinoyLogger:119 - http://zoho.com
+14:42:38,678 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+14:42:38,681 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+14:42:38,683 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+14:42:38,685 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+14:42:38,686 DEBUG cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/Users/anji/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+14:43:44,198 DEBUG devpinoyLogger:214 - browser closed !!!
+14:43:44,228 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+14:43:44,228 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+14:43:44,229 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+14:43:44,229 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+14:43:44,230 DEBUG cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/Users/anji/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"

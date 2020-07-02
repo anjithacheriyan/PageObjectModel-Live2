@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Page Object Model Basics" duration-ms="72602" started-at="2020-07-02T09:12:31Z" finished-at="2020-07-02T09:13:44Z">
+    <groups>
+    </groups>
+    <test name="Login Test" duration-ms="7954" started-at="2020-07-02T09:12:31Z" finished-at="2020-07-02T09:12:39Z">
+      <class name="com.testcases.LoginTest">
+        <test-method status="PASS" signature="loginTest(java.util.Hashtable)[pri:0, instance:com.testcases.LoginTest@35beb15e]" name="loginTest" duration-ms="6705" started-at="2020-07-02T09:12:31Z" data-provider="dp" finished-at="2020-07-02T09:12:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{userid=anjithacheriyanmarate@gmail.com, password=Isabel@june30, runmode=y}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+      </class> <!-- com.testcases.LoginTest -->
+    </test> <!-- Login Test -->
+    <test name="Open Account Test" duration-ms="59006" started-at="2020-07-02T09:12:45Z" finished-at="2020-07-02T09:13:44Z">
+      <class name="com.testcases.OpenAccountTest">
+        <test-method status="PASS" signature="openAccountTest(java.util.Hashtable)[pri:0, instance:com.testcases.OpenAccountTest@3ebff828]" name="openAccountTest" duration-ms="58885" started-at="2020-07-02T09:12:45Z" data-provider="dp" finished-at="2020-07-02T09:13:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{accountName=Anjitha}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openAccountTest -->
+      </class> <!-- com.testcases.OpenAccountTest -->
+    </test> <!-- Open Account Test -->
+  </suite> <!-- Page Object Model Basics -->
+</testng-results>

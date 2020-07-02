@@ -1,0 +1,5 @@
+02/07/2020 14:42:20 devpinoyLogger {testurl=http://zoho.com, browser=Chrome, implicitwait=10}
+02/07/2020 14:42:20 devpinoyLogger {nextBtn=//button[@class="btn blue"][@id="nextbtn"], signUpBtn=//a[@href=\"https://www.zoho.com/signup.html\"], createAccountPlusBtn=//button[@data-zcqa="cv_createbtn"], crmBtn=//span[@class="_logo-crm _logo-x96 zod-app-logo"], passwordBtn=//input[@id="password"], goToAccounts=//a[@href="/crm/org60005011846/tab/Accounts"], supportBtn=//a[@class="zh-support"][@href="https://help.zoho.com/portal/home"], accountNameTextBox=//input[@id="Crm_Accounts_ACCOUNTNAME"], loginBtn=/html/body/div[3]/div[2]/div/a[4], goToThreeDotsBtn=//span[@class="lyteDot svgIconsImg"], mailidTextBox=//input[@id="login_id"]}
+02/07/2020 14:42:25 devpinoyLogger Chrome launched !!!
+02/07/2020 14:42:30 devpinoyLogger http://zoho.com
+02/07/2020 14:43:44 devpinoyLogger browser closed !!!

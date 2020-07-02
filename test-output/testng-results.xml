@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="1" failed="0" ignored="0" total="2" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Page Object Model Basics" duration-ms="11109" started-at="2020-07-02T14:16:45 IST" finished-at="2020-07-02T14:16:56 IST">
+    <groups>
+    </groups>
+    <test name="Login Test" duration-ms="5349" started-at="2020-07-02T14:16:45 IST" finished-at="2020-07-02T14:16:50 IST">
+      <class name="com.testcases.LoginTest">
+        <test-method status="PASS" signature="loginTest(java.util.Hashtable)[pri:0, instance:com.testcases.LoginTest@16f7b4af]" name="loginTest" duration-ms="4831" started-at="2020-07-02T14:16:45 IST" data-provider="dp" finished-at="2020-07-02T14:16:50 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{userid=anjithacheriyanmarate@gmail.com, password=Isabel@june30, runmode=y}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+      </class> <!-- com.testcases.LoginTest -->
+    </test> <!-- Login Test -->
+    <test name="Open Account Test" duration-ms="84" started-at="2020-07-02T14:16:56 IST" finished-at="2020-07-02T14:16:56 IST">
+      <class name="com.testcases.OpenAccountTest">
+        <test-method status="SKIP" signature="openAccountTest(java.util.Hashtable)[pri:0, instance:com.testcases.OpenAccountTest@659eef7]" name="openAccountTest" duration-ms="4" started-at="2020-07-02T14:16:56 IST" data-provider="dp" finished-at="2020-07-02T14:16:56 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{accountName=Anjitha}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping the TestCase:OPENACCOUNTTEST]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping the TestCase:OPENACCOUNTTEST
+at com.listeners.CustomListeners.onTestStart(CustomListeners.java:51)
+at org.testng.internal.TestListenerHelper.runTestListeners(TestListenerHelper.java:73)
+at org.testng.internal.TestInvoker.runTestResultListener(TestInvoker.java:220)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:571)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:821)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1257)
+at org.testng.TestRunner.privateRun(TestRunner.java:767)
+at org.testng.TestRunner.run(TestRunner.java:588)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1214)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1136)
+at org.testng.TestNG.runSuites(TestNG.java:1066)
+at org.testng.TestNG.run(TestNG.java:1034)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openAccountTest -->
+      </class> <!-- com.testcases.OpenAccountTest -->
+    </test> <!-- Open Account Test -->
+  </suite> <!-- Page Object Model Basics -->
+</testng-results>
